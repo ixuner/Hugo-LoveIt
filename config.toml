@@ -105,7 +105,7 @@ theme = "LoveIt"
 	  
     #  评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
