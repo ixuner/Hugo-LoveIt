@@ -71,7 +71,7 @@ theme = "LoveIt"
         lang = ""
         visitor = true
         recordIP = false
-        highlight = true
+        highlight = false
         enableQQ = false
         serverURLs = ""
         #  emoji 数据文件名称, 默认是 "google.yml"
