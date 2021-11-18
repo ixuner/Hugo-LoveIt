@@ -80,7 +80,18 @@ theme = "LoveIt"
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
         emoji = ""
-		
+
+
+  #  网站分析配置
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-MHEJB46G65"
+      # 是否匿名化用户 IP
+      anonymizeIP = true
+
+
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -125,7 +136,15 @@ theme = "LoveIt"
   name = "ixuner"
   email = "1547884893@qq.com"
   link = "https://www.ixuner.top"
-  
+
+
+# 网站地图配置
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+
 # 用于 Hugo 输出文档的设置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
