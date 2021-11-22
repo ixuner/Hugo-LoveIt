@@ -120,8 +120,23 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
-
-
+  [[menu.main]]
+    identifier = "笔记"
+    pre = ""
+    post = ""
+    name = "笔记"
+    url = "/categories/笔记/"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 5
+	
 # Hugo 解析文档的配置
 [markup]
   # 语法高亮设置
